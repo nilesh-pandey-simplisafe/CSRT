@@ -50,8 +50,6 @@
 
 using namespace cv;
 
-	extern const float ColorNames[][10];
-
 
     /* Cholesky decomposition
      The function performs Cholesky decomposition <https://en.wikipedia.org/wiki/Cholesky_decomposition>.

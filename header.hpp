@@ -4,7 +4,6 @@
 #include "feature_.hpp"
 #include "precomp_.hpp"
 #include "tracker_.hpp"
-#include "trackerCSRTScaleEstimation_.hpp"
 #include "trackerCSRTSegmentation_.hpp"
 #include "trackerCSRTUtils_.hpp"
 

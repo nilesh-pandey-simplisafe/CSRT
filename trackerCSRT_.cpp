@@ -558,7 +558,7 @@ private:
     Size2i rescaled_template_size;
     float rescale_ratio;
     Point2f object_center;
-    DSST dsst;
+    // DSST dsst;
     Histogram hist_foreground;
     Histogram hist_background;
     double p_b;
@@ -689,11 +689,11 @@ std::vector<Mat> TrackerCSRTImpl::get_features(const Mat &patch, const Size2i &f
         features.insert(features.end(), hog.begin(),
                 hog.begin()+params.num_hog_channels_used);
     }
-    if (params.use_color_names) {
-        std::vector<Mat> cn;
-        cn = get_features_cn(patch, feature_size);
-        features.insert(features.end(), cn.begin(), cn.end());
-    }
+    // if (params.use_color_names) {
+    //     std::vector<Mat> cn;
+    //     cn = get_features_cn(patch, feature_size);
+    //     features.insert(features.end(), cn.begin(), cn.end());
+    // }
     if(params.use_gray) {
         Mat gray_m;
         cvtColor(patch, gray_m, CV_BGR2GRAY);
@@ -968,7 +968,7 @@ bool TrackerCSRTImpl::updateImpl(const Mat& image_, Rect2d& boundingBox)
 
     object_center = estimate_new_position(image);
 
-    current_scale_factor = dsst.getScale(image, object_center);
+    current_scale_factor = 1.0;//dsst.getScale(image, object_center);
     //update bouding_box according to new scale and location
     bounding_box.x = object_center.x - current_scale_factor * original_target_size.width / 2.0f;
     bounding_box.y = object_center.y - current_scale_factor * original_target_size.height / 2.0f;
@@ -991,7 +991,7 @@ bool TrackerCSRTImpl::updateImpl(const Mat& image_, Rect2d& boundingBox)
         filter_mask = default_mask;
     }
     update_csr_filter(image, filter_mask);
-    dsst.update(image, object_center);
+    // dsst.update(image, object_center);
     boundingBox = bounding_box;
     return true;
 }
@@ -1111,8 +1111,8 @@ std::cout << image.rows << "x" << image.cols << std::endl;
     }
 
     //initialize scale search
-    dsst = DSST(image, bounding_box, template_size, params.number_of_scales, params.scale_step,
-            params.scale_model_max_area, params.scale_sigma_factor, params.scale_lr);
+    // dsst = DSST(image, bounding_box, template_size, params.number_of_scales, params.scale_step,
+    //         params.scale_model_max_area, params.scale_sigma_factor, params.scale_lr);
 
     model=Ptr<TrackerCSRTModel>(new TrackerCSRTModel(params));
     isInit = true;
@@ -1124,7 +1124,7 @@ TrackerCSRT::Params::Params()
     use_channel_weights = true;
     use_segmentation = true;
     use_hog = true;
-    use_color_names = true;
+    use_color_names = false;
     use_gray = true;
     use_rgb = false;
     window_function = "hann";

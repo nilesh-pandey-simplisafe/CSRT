@@ -493,33 +493,33 @@ std::vector<Mat> get_features_hog(const Mat &im, const int bin_size)
     return features;
 }
 
-std::vector<Mat> get_features_cn(const Mat &ppatch_data, const Size &output_size) {
-    Mat patch_data = ppatch_data.clone();
-    Vec3b & pixel = patch_data.at<Vec3b>(0,0);
-    unsigned index;
+// std::vector<Mat> get_features_cn(const Mat &ppatch_data, const Size &output_size) {
+//     Mat patch_data = ppatch_data.clone();
+//     Vec3b & pixel = patch_data.at<Vec3b>(0,0);
+//     unsigned index;
 
-    Mat cnFeatures = Mat::zeros(patch_data.rows,patch_data.cols,CV_32FC(10));
+//     Mat cnFeatures = Mat::zeros(patch_data.rows,patch_data.cols,CV_32FC(10));
 
-    for(int i=0;i<patch_data.rows;i++){
-        for(int j=0;j<patch_data.cols;j++){
-            pixel=patch_data.at<Vec3b>(i,j);
-            index=(unsigned)(cvFloor((float)pixel[2]/8)+32*cvFloor((float)pixel[1]/8)+32*32*cvFloor((float)pixel[0]/8));
+//     for(int i=0;i<patch_data.rows;i++){
+//         for(int j=0;j<patch_data.cols;j++){
+//             pixel=patch_data.at<Vec3b>(i,j);
+//             index=(unsigned)(cvFloor((float)pixel[2]/8)+32*cvFloor((float)pixel[1]/8)+32*32*cvFloor((float)pixel[0]/8));
 
-            //copy the values
-            for(int k=0;k<10;k++){
-                cnFeatures.at<Vec<float,10> >(i,j)[k]=(float)ColorNames[index][k];
-            }
-        }
-    }
-    std::vector<Mat> result;
-    split(cnFeatures, result);
-    for (size_t i = 0; i < result.size(); i++) {
-        if (output_size.width > 0 && output_size.height > 0) {
-            resize(result.at(i), result.at(i), output_size, INTER_CUBIC);
-        }
-    }
-    return result;
-}
+//             //copy the values
+//             for(int k=0;k<10;k++){
+//                 cnFeatures.at<Vec<float,10> >(i,j)[k]=(float)ColorNames[index][k];
+//             }
+//         }
+//     }
+//     std::vector<Mat> result;
+//     split(cnFeatures, result);
+//     for (size_t i = 0; i < result.size(); i++) {
+//         if (output_size.width > 0 && output_size.height > 0) {
+//             resize(result.at(i), result.at(i), output_size, INTER_CUBIC);
+//         }
+//     }
+//     return result;
+// }
 
 std::vector<Mat> get_features_rgb(const Mat &patch, const Size &output_size)
 {
