@@ -1,17 +1,11 @@
 // This file is part of OpenCV project.
 // It is subject to the license terms in the LICENSE file found in the top-level directory
 // of this distribution and at http://opencv.org/license.html.
-
+#pragma once
 #ifndef TRACKER_CSRT_UTILS
 #define TRACKER_CSRT_UTILS
 
-#include "opencv2/imgproc.hpp"
-#include "opencv2/core/mat.hpp"
-#include <fstream>
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <iterator>
+#include "header.hpp"
 
 using namespace cv;
 
