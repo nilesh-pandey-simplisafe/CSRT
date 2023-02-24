@@ -1,13 +1,5 @@
-#include <opencv2/core/utility.hpp>
-#include <opencv2/videoio.hpp>
-#include <opencv2/highgui.hpp>
-#include <iostream>
-#include <sstream>
-#include <cstring>
-#include <fstream>
-// #include "opencv2/core/ocl.hpp"
-
-#include "tracker_.hpp"
+// main headerfile is tracker_.hpp
+#include "header.hpp"
 using namespace std;
 using namespace cv;
 
@@ -45,7 +37,7 @@ int main(int argc, char** argv)
     }
 
     // create the tracker
-    Ptr<TrackerCSRT> tracker = TrackerCSRT::create();
+    Ptr<TrackerCSRT_> tracker = TrackerCSRT_::create();
 
     // const char* param_file_path = "/home/amuhic/Workspace/3_dip/params.yml";
     // FileStorage fs(params_file_path, FileStorage::WRITE);

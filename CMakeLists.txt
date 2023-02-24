@@ -11,10 +11,20 @@ set(LIBS "-lopencv_core -lopencv_videoio -lopencv_imgproc -lopencv_highgui")
 set(LIB_COMMON "-L${OPENCV_LIBS} -lgcov")
 set(CMAKE_CXX_FLAGS "-march=native -O0 -g3 -Wall -I ${OPENCV_INC}")
 
-file(GLOB SRCS *.cpp)
-file(GLOB HEADERS *.hpp)
+include_directories(header)
 
-add_executable(csrt ${SRCS})
+file(GLOB SRCS src/*.cpp)
+file(GLOB HEADERS header/*.hpp)
+# use GLOB only when we need all files, if we wish to exclude some we need to mention files accordingly
+# set(SRCS tracker_.cpp trackerCSRT_.cpp trackerCSRTSegmentation_.cpp trackerCSRTUtils_.cpp)
+# set(HEADERS tracker_.hpp trackerCSRTSegmentation_.hpp trackerCSRTUtils_.hpp precomp.hpp feature_.hpp header.hpp)
+# set_source_files_properties(csrt.cpp PROPERTIES EXCLUDE_FROM_ALL 1)
+
+add_executable(csrt ${SRCS}) # only when we have one entery point to a code
+
+# we can create shared library
+# add_library(csrt_lib SHARED ${SRCS})
+
 
 target_link_libraries(csrt PRIVATE ${LIB_COMMON} ${LIBS})
 
