@@ -169,113 +169,113 @@ csrt/fast:
 	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/build
 .PHONY : csrt/fast
 
-csrt.o: csrt.cpp.o
+src/csrt.o: src/csrt.cpp.o
 
-.PHONY : csrt.o
-
-# target to build an object file
-csrt.cpp.o:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/csrt.cpp.o
-.PHONY : csrt.cpp.o
-
-csrt.i: csrt.cpp.i
-
-.PHONY : csrt.i
-
-# target to preprocess a source file
-csrt.cpp.i:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/csrt.cpp.i
-.PHONY : csrt.cpp.i
-
-csrt.s: csrt.cpp.s
-
-.PHONY : csrt.s
-
-# target to generate assembly for a file
-csrt.cpp.s:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/csrt.cpp.s
-.PHONY : csrt.cpp.s
-
-trackerCSRTSegmentation_.o: trackerCSRTSegmentation_.cpp.o
-
-.PHONY : trackerCSRTSegmentation_.o
+.PHONY : src/csrt.o
 
 # target to build an object file
-trackerCSRTSegmentation_.cpp.o:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/trackerCSRTSegmentation_.cpp.o
-.PHONY : trackerCSRTSegmentation_.cpp.o
+src/csrt.cpp.o:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/csrt.cpp.o
+.PHONY : src/csrt.cpp.o
 
-trackerCSRTSegmentation_.i: trackerCSRTSegmentation_.cpp.i
+src/csrt.i: src/csrt.cpp.i
 
-.PHONY : trackerCSRTSegmentation_.i
+.PHONY : src/csrt.i
 
 # target to preprocess a source file
-trackerCSRTSegmentation_.cpp.i:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/trackerCSRTSegmentation_.cpp.i
-.PHONY : trackerCSRTSegmentation_.cpp.i
+src/csrt.cpp.i:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/csrt.cpp.i
+.PHONY : src/csrt.cpp.i
 
-trackerCSRTSegmentation_.s: trackerCSRTSegmentation_.cpp.s
+src/csrt.s: src/csrt.cpp.s
 
-.PHONY : trackerCSRTSegmentation_.s
+.PHONY : src/csrt.s
 
 # target to generate assembly for a file
-trackerCSRTSegmentation_.cpp.s:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/trackerCSRTSegmentation_.cpp.s
-.PHONY : trackerCSRTSegmentation_.cpp.s
+src/csrt.cpp.s:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/csrt.cpp.s
+.PHONY : src/csrt.cpp.s
 
-trackerCSRTUtils_.o: trackerCSRTUtils_.cpp.o
+src/trackerCSRTSegmentation_.o: src/trackerCSRTSegmentation_.cpp.o
 
-.PHONY : trackerCSRTUtils_.o
+.PHONY : src/trackerCSRTSegmentation_.o
 
 # target to build an object file
-trackerCSRTUtils_.cpp.o:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/trackerCSRTUtils_.cpp.o
-.PHONY : trackerCSRTUtils_.cpp.o
+src/trackerCSRTSegmentation_.cpp.o:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.o
+.PHONY : src/trackerCSRTSegmentation_.cpp.o
 
-trackerCSRTUtils_.i: trackerCSRTUtils_.cpp.i
+src/trackerCSRTSegmentation_.i: src/trackerCSRTSegmentation_.cpp.i
 
-.PHONY : trackerCSRTUtils_.i
+.PHONY : src/trackerCSRTSegmentation_.i
 
 # target to preprocess a source file
-trackerCSRTUtils_.cpp.i:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/trackerCSRTUtils_.cpp.i
-.PHONY : trackerCSRTUtils_.cpp.i
+src/trackerCSRTSegmentation_.cpp.i:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.i
+.PHONY : src/trackerCSRTSegmentation_.cpp.i
 
-trackerCSRTUtils_.s: trackerCSRTUtils_.cpp.s
+src/trackerCSRTSegmentation_.s: src/trackerCSRTSegmentation_.cpp.s
 
-.PHONY : trackerCSRTUtils_.s
+.PHONY : src/trackerCSRTSegmentation_.s
 
 # target to generate assembly for a file
-trackerCSRTUtils_.cpp.s:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/trackerCSRTUtils_.cpp.s
-.PHONY : trackerCSRTUtils_.cpp.s
+src/trackerCSRTSegmentation_.cpp.s:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.s
+.PHONY : src/trackerCSRTSegmentation_.cpp.s
 
-trackerCSRTm.o: trackerCSRTm.cpp.o
+src/trackerCSRTUtils_.o: src/trackerCSRTUtils_.cpp.o
 
-.PHONY : trackerCSRTm.o
+.PHONY : src/trackerCSRTUtils_.o
 
 # target to build an object file
-trackerCSRTm.cpp.o:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/trackerCSRTm.cpp.o
-.PHONY : trackerCSRTm.cpp.o
+src/trackerCSRTUtils_.cpp.o:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.o
+.PHONY : src/trackerCSRTUtils_.cpp.o
 
-trackerCSRTm.i: trackerCSRTm.cpp.i
+src/trackerCSRTUtils_.i: src/trackerCSRTUtils_.cpp.i
 
-.PHONY : trackerCSRTm.i
+.PHONY : src/trackerCSRTUtils_.i
 
 # target to preprocess a source file
-trackerCSRTm.cpp.i:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/trackerCSRTm.cpp.i
-.PHONY : trackerCSRTm.cpp.i
+src/trackerCSRTUtils_.cpp.i:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.i
+.PHONY : src/trackerCSRTUtils_.cpp.i
 
-trackerCSRTm.s: trackerCSRTm.cpp.s
+src/trackerCSRTUtils_.s: src/trackerCSRTUtils_.cpp.s
 
-.PHONY : trackerCSRTm.s
+.PHONY : src/trackerCSRTUtils_.s
 
 # target to generate assembly for a file
-trackerCSRTm.cpp.s:
-	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/trackerCSRTm.cpp.s
-.PHONY : trackerCSRTm.cpp.s
+src/trackerCSRTUtils_.cpp.s:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.s
+.PHONY : src/trackerCSRTUtils_.cpp.s
+
+src/trackerCSRTm.o: src/trackerCSRTm.cpp.o
+
+.PHONY : src/trackerCSRTm.o
+
+# target to build an object file
+src/trackerCSRTm.cpp.o:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o
+.PHONY : src/trackerCSRTm.cpp.o
+
+src/trackerCSRTm.i: src/trackerCSRTm.cpp.i
+
+.PHONY : src/trackerCSRTm.i
+
+# target to preprocess a source file
+src/trackerCSRTm.cpp.i:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.i
+.PHONY : src/trackerCSRTm.cpp.i
+
+src/trackerCSRTm.s: src/trackerCSRTm.cpp.s
+
+.PHONY : src/trackerCSRTm.s
+
+# target to generate assembly for a file
+src/trackerCSRTm.cpp.s:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.s
+.PHONY : src/trackerCSRTm.cpp.s
 
 # Help Target
 help:
@@ -290,18 +290,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... csrt"
-	@echo "... csrt.o"
-	@echo "... csrt.i"
-	@echo "... csrt.s"
-	@echo "... trackerCSRTSegmentation_.o"
-	@echo "... trackerCSRTSegmentation_.i"
-	@echo "... trackerCSRTSegmentation_.s"
-	@echo "... trackerCSRTUtils_.o"
-	@echo "... trackerCSRTUtils_.i"
-	@echo "... trackerCSRTUtils_.s"
-	@echo "... trackerCSRTm.o"
-	@echo "... trackerCSRTm.i"
-	@echo "... trackerCSRTm.s"
+	@echo "... src/csrt.o"
+	@echo "... src/csrt.i"
+	@echo "... src/csrt.s"
+	@echo "... src/trackerCSRTSegmentation_.o"
+	@echo "... src/trackerCSRTSegmentation_.i"
+	@echo "... src/trackerCSRTSegmentation_.s"
+	@echo "... src/trackerCSRTUtils_.o"
+	@echo "... src/trackerCSRTUtils_.i"
+	@echo "... src/trackerCSRTUtils_.s"
+	@echo "... src/trackerCSRTm.o"
+	@echo "... src/trackerCSRTm.i"
+	@echo "... src/trackerCSRTm.s"
 .PHONY : help
 
 

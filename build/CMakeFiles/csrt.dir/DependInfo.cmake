@@ -4,15 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nile649/CSRT/csrt.cpp" "/home/nile649/CSRT/build/CMakeFiles/csrt.dir/csrt.cpp.o"
-  "/home/nile649/CSRT/trackerCSRTSegmentation_.cpp" "/home/nile649/CSRT/build/CMakeFiles/csrt.dir/trackerCSRTSegmentation_.cpp.o"
-  "/home/nile649/CSRT/trackerCSRTUtils_.cpp" "/home/nile649/CSRT/build/CMakeFiles/csrt.dir/trackerCSRTUtils_.cpp.o"
-  "/home/nile649/CSRT/trackerCSRTm.cpp" "/home/nile649/CSRT/build/CMakeFiles/csrt.dir/trackerCSRTm.cpp.o"
+  "/home/nile649/CSRT/src/csrt.cpp" "/home/nile649/CSRT/build/CMakeFiles/csrt.dir/src/csrt.cpp.o"
+  "/home/nile649/CSRT/src/trackerCSRTSegmentation_.cpp" "/home/nile649/CSRT/build/CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.o"
+  "/home/nile649/CSRT/src/trackerCSRTUtils_.cpp" "/home/nile649/CSRT/build/CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.o"
+  "/home/nile649/CSRT/src/trackerCSRTm.cpp" "/home/nile649/CSRT/build/CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../header"
   )
 
 # Targets to which this target links.

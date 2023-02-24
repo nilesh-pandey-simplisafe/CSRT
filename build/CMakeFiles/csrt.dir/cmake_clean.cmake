@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/csrt.dir/csrt.cpp.o"
-  "CMakeFiles/csrt.dir/trackerCSRTSegmentation_.cpp.o"
-  "CMakeFiles/csrt.dir/trackerCSRTUtils_.cpp.o"
-  "CMakeFiles/csrt.dir/trackerCSRTm.cpp.o"
+  "CMakeFiles/csrt.dir/src/csrt.cpp.o"
+  "CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.o"
+  "CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.o"
+  "CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o"
   "csrt"
   "csrt.pdb"
 )

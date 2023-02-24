@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nile649/CSRT/csrt.cpp
-header.hpp
-/home/nile649/CSRT/header.hpp
-
-/home/nile649/CSRT/header.hpp
+../header/header.hpp
 fstream
 -
 iostream
@@ -26,45 +22,49 @@ sstream
 cstring
 -
 opencv2/videoio.hpp
-/home/nile649/CSRT/opencv2/videoio.hpp
+../header/opencv2/videoio.hpp
 opencv2/highgui.hpp
-/home/nile649/CSRT/opencv2/highgui.hpp
+../header/opencv2/highgui.hpp
 opencv2/core/utility.hpp
-/home/nile649/CSRT/opencv2/core/utility.hpp
+../header/opencv2/core/utility.hpp
 opencv2/imgproc.hpp
-/home/nile649/CSRT/opencv2/imgproc.hpp
+../header/opencv2/imgproc.hpp
 trackerCSRTSegmentation_.hpp
-/home/nile649/CSRT/trackerCSRTSegmentation_.hpp
+../header/trackerCSRTSegmentation_.hpp
 trackerCSRTUtils_.hpp
-/home/nile649/CSRT/trackerCSRTUtils_.hpp
+../header/trackerCSRTUtils_.hpp
 trackerCSRTm.hpp
-/home/nile649/CSRT/trackerCSRTm.hpp
+../header/trackerCSRTm.hpp
 
-/home/nile649/CSRT/trackerCSRTSegmentation_.cpp
+../header/trackerCSRTSegmentation_.hpp
+
+../header/trackerCSRTUtils_.hpp
+header.hpp
+../header/header.hpp
+
+../header/trackerCSRTm.hpp
+opencv2/imgproc/types_c.h
+../header/opencv2/imgproc/types_c.h
+header.hpp
+../header/header.hpp
+
+/home/nile649/CSRT/src/csrt.cpp
+header.hpp
+/home/nile649/CSRT/src/header.hpp
+
+/home/nile649/CSRT/src/trackerCSRTSegmentation_.cpp
 iostream
 -
 vector
 -
 header.hpp
-/home/nile649/CSRT/header.hpp
+/home/nile649/CSRT/src/header.hpp
 
-/home/nile649/CSRT/trackerCSRTSegmentation_.hpp
-
-/home/nile649/CSRT/trackerCSRTUtils_.cpp
+/home/nile649/CSRT/src/trackerCSRTUtils_.cpp
 header.hpp
-/home/nile649/CSRT/header.hpp
+/home/nile649/CSRT/src/header.hpp
 
-/home/nile649/CSRT/trackerCSRTUtils_.hpp
-header.hpp
-/home/nile649/CSRT/header.hpp
-
-/home/nile649/CSRT/trackerCSRTm.cpp
+/home/nile649/CSRT/src/trackerCSRTm.cpp
 trackerCSRTm.hpp
-/home/nile649/CSRT/trackerCSRTm.hpp
-
-/home/nile649/CSRT/trackerCSRTm.hpp
-opencv2/imgproc/types_c.h
-/home/nile649/CSRT/opencv2/imgproc/types_c.h
-header.hpp
-/home/nile649/CSRT/header.hpp
+/home/nile649/CSRT/src/trackerCSRTm.hpp
 

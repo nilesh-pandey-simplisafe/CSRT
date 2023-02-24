@@ -6,5 +6,5 @@ CXX_FLAGS = -march=native -O0 -g3 -Wall -I /usr/local/include/opencv2/   -std=gn
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/nile649/CSRT/header 
 
