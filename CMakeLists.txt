@@ -10,10 +10,14 @@ set(OPENCV_LIBS "/usr/local/lib/")
 set(LIBS "-lopencv_core -lopencv_videoio -lopencv_imgproc -lopencv_highgui")
 set(LIB_COMMON "-L${OPENCV_LIBS} -lgcov")
 set(CMAKE_CXX_FLAGS "-march=native -O0 -g3 -Wall -I ${OPENCV_INC}")
+set(CMAKE_C_FLAGS "-march=native -O0 -g3 -Wall -I ${OPENCV_INC}")
 
 include_directories(header)
 
-file(GLOB SRCS src/*.cpp)
+file(GLOB CPP_SRCS src/*.cpp)
+file(GLOB C_SRCS src/*.c)
+set(SRCS ${CPP_SRCS} ${C_SRCS})
+# set(SRCS tracker_c.cpp trackerCSRTm.cpp trackerCSRTSegmentation_.cpp trackerCSRTUtils_.cpp)
 file(GLOB HEADERS header/*.hpp)
 # use GLOB only when we need all files, if we wish to exclude some we need to mention files accordingly
 # set(SRCS tracker_.cpp trackerCSRT_.cpp trackerCSRTSegmentation_.cpp trackerCSRTUtils_.cpp)

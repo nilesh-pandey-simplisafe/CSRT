@@ -52,7 +52,7 @@ class TrackerCSRT_
    bool update( Mat image, Rect2d& boundingBox );
 
 
-  static Ptr<TrackerCSRT_> create();
+  static Ptr<TrackerCSRT_> create(); // what does static means here ?
 
 
   Params params;

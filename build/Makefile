@@ -169,6 +169,33 @@ csrt/fast:
 	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/build
 .PHONY : csrt/fast
 
+src/csrt.o: src/csrt.c.o
+
+.PHONY : src/csrt.o
+
+# target to build an object file
+src/csrt.c.o:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/csrt.c.o
+.PHONY : src/csrt.c.o
+
+src/csrt.i: src/csrt.c.i
+
+.PHONY : src/csrt.i
+
+# target to preprocess a source file
+src/csrt.c.i:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/csrt.c.i
+.PHONY : src/csrt.c.i
+
+src/csrt.s: src/csrt.c.s
+
+.PHONY : src/csrt.s
+
+# target to generate assembly for a file
+src/csrt.c.s:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/csrt.c.s
+.PHONY : src/csrt.c.s
+
 src/csrt.o: src/csrt.cpp.o
 
 .PHONY : src/csrt.o
@@ -277,6 +304,33 @@ src/trackerCSRTm.cpp.s:
 	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.s
 .PHONY : src/trackerCSRTm.cpp.s
 
+src/tracker_c.o: src/tracker_c.cpp.o
+
+.PHONY : src/tracker_c.o
+
+# target to build an object file
+src/tracker_c.cpp.o:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/tracker_c.cpp.o
+.PHONY : src/tracker_c.cpp.o
+
+src/tracker_c.i: src/tracker_c.cpp.i
+
+.PHONY : src/tracker_c.i
+
+# target to preprocess a source file
+src/tracker_c.cpp.i:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/tracker_c.cpp.i
+.PHONY : src/tracker_c.cpp.i
+
+src/tracker_c.s: src/tracker_c.cpp.s
+
+.PHONY : src/tracker_c.s
+
+# target to generate assembly for a file
+src/tracker_c.cpp.s:
+	$(MAKE) -f CMakeFiles/csrt.dir/build.make CMakeFiles/csrt.dir/src/tracker_c.cpp.s
+.PHONY : src/tracker_c.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -293,6 +347,9 @@ help:
 	@echo "... src/csrt.o"
 	@echo "... src/csrt.i"
 	@echo "... src/csrt.s"
+	@echo "... src/csrt.o"
+	@echo "... src/csrt.i"
+	@echo "... src/csrt.s"
 	@echo "... src/trackerCSRTSegmentation_.o"
 	@echo "... src/trackerCSRTSegmentation_.i"
 	@echo "... src/trackerCSRTSegmentation_.s"
@@ -302,6 +359,9 @@ help:
 	@echo "... src/trackerCSRTm.o"
 	@echo "... src/trackerCSRTm.i"
 	@echo "... src/trackerCSRTm.s"
+	@echo "... src/tracker_c.o"
+	@echo "... src/tracker_c.i"
+	@echo "... src/tracker_c.s"
 .PHONY : help
 
 

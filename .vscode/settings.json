@@ -7,6 +7,7 @@
         "numeric": "cpp",
         "ostream": "cpp",
         "sstream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "iosfwd": "c"
     }
 }

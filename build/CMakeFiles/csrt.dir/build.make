@@ -60,61 +60,89 @@ include CMakeFiles/csrt.dir/flags.make
 CMakeFiles/csrt.dir/src/csrt.cpp.o: CMakeFiles/csrt.dir/flags.make
 CMakeFiles/csrt.dir/src/csrt.cpp.o: ../src/csrt.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nile649/CSRT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/csrt.dir/src/csrt.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csrt.dir/src/csrt.cpp.o -c /home/nile649/CSRT/src/csrt.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csrt.dir/src/csrt.cpp.o -c /home/nile649/CSRT/src/csrt.cpp
 
 CMakeFiles/csrt.dir/src/csrt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csrt.dir/src/csrt.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nile649/CSRT/src/csrt.cpp > CMakeFiles/csrt.dir/src/csrt.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nile649/CSRT/src/csrt.cpp > CMakeFiles/csrt.dir/src/csrt.cpp.i
 
 CMakeFiles/csrt.dir/src/csrt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csrt.dir/src/csrt.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nile649/CSRT/src/csrt.cpp -o CMakeFiles/csrt.dir/src/csrt.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nile649/CSRT/src/csrt.cpp -o CMakeFiles/csrt.dir/src/csrt.cpp.s
 
 CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.o: CMakeFiles/csrt.dir/flags.make
 CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.o: ../src/trackerCSRTSegmentation_.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nile649/CSRT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.o -c /home/nile649/CSRT/src/trackerCSRTSegmentation_.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.o -c /home/nile649/CSRT/src/trackerCSRTSegmentation_.cpp
 
 CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nile649/CSRT/src/trackerCSRTSegmentation_.cpp > CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nile649/CSRT/src/trackerCSRTSegmentation_.cpp > CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.i
 
 CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nile649/CSRT/src/trackerCSRTSegmentation_.cpp -o CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nile649/CSRT/src/trackerCSRTSegmentation_.cpp -o CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.s
 
 CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.o: CMakeFiles/csrt.dir/flags.make
 CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.o: ../src/trackerCSRTUtils_.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nile649/CSRT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.o -c /home/nile649/CSRT/src/trackerCSRTUtils_.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.o -c /home/nile649/CSRT/src/trackerCSRTUtils_.cpp
 
 CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nile649/CSRT/src/trackerCSRTUtils_.cpp > CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nile649/CSRT/src/trackerCSRTUtils_.cpp > CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.i
 
 CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nile649/CSRT/src/trackerCSRTUtils_.cpp -o CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nile649/CSRT/src/trackerCSRTUtils_.cpp -o CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.s
 
 CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o: CMakeFiles/csrt.dir/flags.make
 CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o: ../src/trackerCSRTm.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nile649/CSRT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o -c /home/nile649/CSRT/src/trackerCSRTm.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o -c /home/nile649/CSRT/src/trackerCSRTm.cpp
 
 CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nile649/CSRT/src/trackerCSRTm.cpp > CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nile649/CSRT/src/trackerCSRTm.cpp > CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.i
 
 CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nile649/CSRT/src/trackerCSRTm.cpp -o CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nile649/CSRT/src/trackerCSRTm.cpp -o CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.s
+
+CMakeFiles/csrt.dir/src/tracker_c.cpp.o: CMakeFiles/csrt.dir/flags.make
+CMakeFiles/csrt.dir/src/tracker_c.cpp.o: ../src/tracker_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nile649/CSRT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/csrt.dir/src/tracker_c.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csrt.dir/src/tracker_c.cpp.o -c /home/nile649/CSRT/src/tracker_c.cpp
+
+CMakeFiles/csrt.dir/src/tracker_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csrt.dir/src/tracker_c.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nile649/CSRT/src/tracker_c.cpp > CMakeFiles/csrt.dir/src/tracker_c.cpp.i
+
+CMakeFiles/csrt.dir/src/tracker_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csrt.dir/src/tracker_c.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nile649/CSRT/src/tracker_c.cpp -o CMakeFiles/csrt.dir/src/tracker_c.cpp.s
+
+CMakeFiles/csrt.dir/src/csrt.c.o: CMakeFiles/csrt.dir/flags.make
+CMakeFiles/csrt.dir/src/csrt.c.o: ../src/csrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nile649/CSRT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/csrt.dir/src/csrt.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/csrt.dir/src/csrt.c.o   -c /home/nile649/CSRT/src/csrt.c
+
+CMakeFiles/csrt.dir/src/csrt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csrt.dir/src/csrt.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nile649/CSRT/src/csrt.c > CMakeFiles/csrt.dir/src/csrt.c.i
+
+CMakeFiles/csrt.dir/src/csrt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csrt.dir/src/csrt.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nile649/CSRT/src/csrt.c -o CMakeFiles/csrt.dir/src/csrt.c.s
 
 # Object files for target csrt
 csrt_OBJECTS = \
 "CMakeFiles/csrt.dir/src/csrt.cpp.o" \
 "CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.o" \
 "CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.o" \
-"CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o"
+"CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o" \
+"CMakeFiles/csrt.dir/src/tracker_c.cpp.o" \
+"CMakeFiles/csrt.dir/src/csrt.c.o"
 
 # External object files for target csrt
 csrt_EXTERNAL_OBJECTS =
@@ -123,9 +151,11 @@ csrt: CMakeFiles/csrt.dir/src/csrt.cpp.o
 csrt: CMakeFiles/csrt.dir/src/trackerCSRTSegmentation_.cpp.o
 csrt: CMakeFiles/csrt.dir/src/trackerCSRTUtils_.cpp.o
 csrt: CMakeFiles/csrt.dir/src/trackerCSRTm.cpp.o
+csrt: CMakeFiles/csrt.dir/src/tracker_c.cpp.o
+csrt: CMakeFiles/csrt.dir/src/csrt.c.o
 csrt: CMakeFiles/csrt.dir/build.make
 csrt: CMakeFiles/csrt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nile649/CSRT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable csrt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nile649/CSRT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable csrt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/csrt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
